@@ -1,5 +1,5 @@
 import './App.css';
-import Avatar from './Components/userAvatar/index'
+import Avatar from './Components/userAvatar/index.jsx'
 
 function App() {
   return (
