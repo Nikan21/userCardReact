@@ -1,9 +1,9 @@
-import Avatar from './avatar.png'
+/* import Avatar from './../../../public/Damian.png' */
 import './avatar.css'
 
 function avatar (){
     return (
-        <img src={Avatar} className='avatar' alt='avatar'/>
+        <img src="/Damian.png" className='avatar' alt='avatar'/>
     );
 }
 

@@ -1,10 +1,10 @@
 import './App.css';
-import avatar from './Components/userAvatar/index'
+import Avatar from './Components/userAvatar/index'
 
 function App() {
   return (
     <div className="App">
-    
+      <Avatar />
     </div>
   );
 }
