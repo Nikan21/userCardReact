@@ -1,10 +1,18 @@
+import UserCard from './Components/userCard/index'
 import './App.css';
-import Avatar from './Components/userAvatar/index.jsx'
+
+
+const info = {
+  name: 'Damian',
+  surname: 'Wayne',
+  description: 'Son of Batman. The fifth robin of Gotham.',
+  avatar: '/Damian.png'
+}
 
 function App() {
   return (
     <div className="App">
-      <Avatar />
+      <UserCard />
     </div>
   );
 }
