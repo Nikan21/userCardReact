@@ -1,4 +1,4 @@
-import Avatar from './../userAvatar/index.jsx'
+import Avatar from '../userAvatar/index.jsx'
 
 function card (){
     return(
@@ -8,3 +8,5 @@ function card (){
         </div>
     )
 }
+
+export default card
