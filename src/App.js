@@ -6,7 +6,6 @@ const info = {
   name: 'Damian',
   surname: 'Wayne',
   description: 'Son of Batman. The fifth robin of Gotham.',
-  avatar: '/Damian.png'
 }
 
 function App() {
