@@ -1,8 +1,8 @@
 import './avatar.css'
 
-function avatar (){
+function avatar (props){
     return (
-        <img src="/Damian.png" className='avatarCard' alt='avatar'/>
+        <img src={props.photo} className='avatarCard' alt='avatar'/>
     );
 }
 
