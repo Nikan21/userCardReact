@@ -1,13 +1,11 @@
 import Avatar from '../userAvatar/index.jsx'
 
-const avatar = {
-    photo: '/Damian.png'
-}
+const avatar = '/Damian.png'
 
 function card (){
     return(
         <div className='headerCard'>
-            <Avatar photo = {avatar.photo}/>
+            <Avatar photo = {avatar}/>
             <p></p>
         </div>
     )
