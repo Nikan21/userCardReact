@@ -1,32 +1,33 @@
-.Card{
-    width: 100%;
-    height: 100%;
+.Card {
+  height: 100%;
+  width: 100%;
 }
 
-.headerCard{
-    height: 12vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border: 1px solid rgba(0, 0, 0, 0.589);
+.headerCard {
+  height: 12vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.589);
 }
 
-.userName{
-    margin-left: 35px;
-    font-size: 30px;
-    font-weight: 600;
+.userName {
+  margin-left: 35px;
+  font-size: 30px;
+  font-weight: 600;
 }
 
-.mainCard{
-    height: 15vh;
-    background-color: rgb(119, 23, 23);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.mainCard {
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(119, 23, 23);
 }
-.description{
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 600;
-    color: white;
+
+.description {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
 }
