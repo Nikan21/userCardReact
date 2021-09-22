@@ -11,7 +11,7 @@ const info = {
 function App() {
   return (
     <div className="App">
-      <UserCard />
+      <UserCard data={info}/>
     </div>
   );
 }

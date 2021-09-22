@@ -1,12 +1,14 @@
 import Avatar from '../userAvatar/index.jsx'
 
-const avatar = '/Damian.png'
+const avatar = '/Damian.png';
 
-function card (){
+function card (props){
+    const {name, surname, description} = props.data;
+
     return(
         <div className='headerCard'>
             <Avatar photo = {avatar}/>
-            <p></p>
+            <div className='userName'>{name} {surname}</div>
         </div>
     )
 }
