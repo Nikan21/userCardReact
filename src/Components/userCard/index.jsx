@@ -1,4 +1,5 @@
 import Avatar from '../userAvatar/index.jsx'
+import './card.css'
 
 const avatar = '/Damian.png';
 

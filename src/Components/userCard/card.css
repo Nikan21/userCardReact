@@ -1,0 +1,14 @@
+.headerCard{
+    width: 40%;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 3px solid black;
+}
+
+.userName{
+    margin-left: 25px;
+    font-size: 30px;
+    font-weight: 600;
+}
